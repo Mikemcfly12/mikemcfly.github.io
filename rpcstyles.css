@@ -9,14 +9,15 @@
 :root {
   --very-dark-blue: #0a0a23;
   --white: #ffffff;
-  --yellow: #f1be32;
-  --golden-yellow: #feac32;
+  --yellow: #3245f1;
+  --golden-yellow: #fe3232;
 }
 
 body {
   background-color: var(--very-dark-blue);
   text-align: center;
   color: var(--white);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 h1 {
@@ -29,7 +30,7 @@ h1 {
   margin: 10px;
   color: var(--very-dark-blue);
   background-color: var(--golden-yellow);
-  background-image: linear-gradient(#fecc4c, #ffac33);
+  background-image: linear-gradient(#674cfe, #ffe033);
   border-color: var(--golden-yellow);
   border-width: 3px;
 }
